@@ -73,7 +73,7 @@ const page = () => {
               {data?.user?.email}
             </p>
           </div>
-          <div className="xl:w-9/12 lg:w-10/12 w-11/12 mx-auto bg-slate-100 shadow-inner rounded-xl p-5 mt-5">
+          <div className="xl:w-9/12 lg:w-10/12 sm:w-11/12 w-full mx-auto bg-slate-100 shadow-inner rounded-xl p-5  mt-5">
             <div className="flex justify-between items-center mb-5 px-2">
               <h4 className="text-lg font-semibold">Todos</h4>
 
