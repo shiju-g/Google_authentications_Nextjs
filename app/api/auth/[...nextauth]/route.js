@@ -11,8 +11,6 @@ export const authOptions = NextAuth({
     LinkedInProvider({
       clientId: process.env.LINKEDIN_CLIENT,
       clientSecret: process.env.LINKEDIN_SECRET_ID,
-      redirectUri:
-        "https://google-authentications-nextjs.vercel.app/auth/linkedin/callback",
     }),
   ],
   secret: process.env.NEXT_PUBLIC_SECRET, // Required secret key. Change this to something secret.
