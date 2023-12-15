@@ -31,11 +31,6 @@ export const authOptions = NextAuth({
       }
       return token;
     },
-    async redirect(url, baseUrl) {
-      console.log("Redirect URL:", url);
-      console.log("Base URL:", baseUrl);
-      return url;
-    },
   },
 });
 
