@@ -23,7 +23,7 @@ export default function Home() {
                 onClick={() => signIn()}
                 className="w-full text-red-500 hover:bg-red-500 hover:text-white font-semibold text-sm border-2 border-red-500 rounded-lg py-2"
               >
-                Google
+                Login
               </button>
             </div>
           </div>
